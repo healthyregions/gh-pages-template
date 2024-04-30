@@ -32,8 +32,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Write secrets file
-        env:
-          MAPBOX_API_TOKEN: ${{ secrets.MAPBOX_API_TOKEN }}
         run: echo "var mapbox_token = '${{ secrets.MAPBOX_API_TOKEN }}';" > secrets.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
