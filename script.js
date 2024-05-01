@@ -1,1 +1,1 @@
-console.log(mapbox_token)
+console.log(mapboxToken)
