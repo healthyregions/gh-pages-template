@@ -1,1 +1,1 @@
-console.log(mapboxToken)
+// console.log(mapboxToken)
